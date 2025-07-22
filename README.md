@@ -81,7 +81,7 @@ streamlit run streamlit_app.py
 
 👨‍💻 Author
 Mukund Khandelwal
-🔗 LinkedIn: 
+🔗 LinkedIn: https://www.linkedin.com/posts/mukund-khandelwal-6a8663283_machinelearning-datascience-python-activity-7353326279393226753-2J5H?utm_source=share&utm_medium=member_desktop&rcm=ACoAAET5diABs7bbZlDnVTGZ4DnPgeKxnEmHsgA
 
 💬 Feedback
 If you find this project helpful or have suggestions to improve it, feel free to open an issue or contribute to the repository.
