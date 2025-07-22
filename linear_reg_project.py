@@ -7,7 +7,7 @@ from sklearn.linear_model import LinearRegression
 from sklearn.metrics import r2_score, mean_absolute_error
 
 # ----------- Load and Train Model -----------
-data = pd.read_csv("C:\\Users\\mukun\\OneDrive\\Documents\\python\\sklearn\\6 advertising.csv")
+data = pd.read_csv("6 advertising.csv")
 
 x = data.iloc[:, :-1]
 y = data["Sales"]
