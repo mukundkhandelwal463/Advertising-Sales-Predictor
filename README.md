@@ -1,58 +1,87 @@
-# 📊 Advertising Sales Predictor
+# 📈 Advertising Sales Predictor (Linear Regression Model)
 
-This is an interactive Streamlit app that predicts product sales based on advertising budgets across TV, Radio, and Newspaper.
-
-## 🚀 Built With
-- Python
-- Streamlit
-- Scikit-learn
-- Pandas
-- Matplotlib
-
-## 📌 Features
-- Linear Regression model
-- Real-time user input and prediction
-- Evaluation metrics: MAE, R²
-- Actual vs Predicted visualization
-
-## 🔧 Run Locally
-```bash
-streamlit run app.py
+A simple and interactive web application built using **Streamlit** that predicts product sales based on advertising budgets for **TV**, **Radio**, and **Newspaper** using a **Linear Regression** model.
 
 ---
 
-### ✅ Step 2: Initialize Git Repository in PyCharm
+## 🔗 Live Demo
 
-1. In PyCharm:  
-   **VCS** (Version Control) → **Enable Version Control Integration** → Choose **Git**
-
-2. Then:
-   - Right-click → **Git** → Add
-   - Or in terminal:
-     ```bash
-     git init
-     git add .
-     git commit -m "Initial commit - Ad Sales Predictor"
-     ```
+👉 **[Click here to try the app](https://advertising-sales-predictor-detqnqfxp7qytmmh4pffqk.streamlit.app/)**
 
 ---
 
-### ✅ Step 3: Create Repository on GitHub
+## 📂 Dataset
 
-1. Go to: [https://github.com](https://github.com)
-2. Click **New Repository**
-3. Name: `ad-sales-predictor`
-4. **Do NOT** initialize with README (you already have one)
-5. Click **Create Repository**
+- **Dataset Name:** Advertising Dataset  
+- **Source:** Provided in the project folder  
+- **Features:**
+  - `TV`: Budget allocated to TV advertising  
+  - `Radio`: Budget allocated to Radio advertising  
+  - `Newspaper`: Budget allocated to Newspaper advertising  
+  - `Sales`: Resulting product sales
 
 ---
 
-### ✅ Step 4: Connect PyCharm to GitHub
+## ⚙️ Features
 
-In PyCharm terminal (or Git Bash):
+- Accepts interactive inputs for advertising budgets
+- Predicts sales using a trained Linear Regression model
+- Shows model performance (R² score)
+- Visualizes **Actual vs Predicted Sales** using plots
 
-```bash
-git remote add origin https://github.com/YOUR_USERNAME/ad-sales-predictor.git
-git branch -M main
-git push -u origin main
+---
 
+## 🧰 Tech Stack
+
+- **Frontend:** Streamlit
+- **Backend/ML:** Pandas, NumPy, Scikit-learn
+- **Visualization:** Matplotlib, Seaborn
+- **Deployment:** Streamlit Cloud
+
+---
+
+## 📁 Project Structure
+
+advertising-sales-predictor/
+│
+├── advertising.csv # Advertising dataset
+├── model.pkl # Trained Linear Regression model
+├── streamlit_app.py # Main Streamlit app
+├── requirements.txt # Python dependencies
+├── screenshots/ # App screenshots (optional)
+│ ├── input.png
+│ └── output.png
+└── README.md # Project documentation
+
+yaml
+Copy
+Edit
+
+---
+
+## ▶️ Run Locally
+
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/yourusername/advertising-sales-predictor.git
+   cd advertising-sales-predictor
+Install dependencies
+
+bash
+Copy
+Edit
+pip install -r requirements.txt
+Run the Streamlit app
+
+bash
+Copy
+Edit
+streamlit run streamlit_app.py
+
+
+👨‍💻 Author
+Mukund Khandelwal
+🔗 LinkedIn: 
+
+💬 Feedback
+If you find this project helpful or have suggestions to improve it, feel free to open an issue or contribute to the repository.
